@@ -1,0 +1,81 @@
+
+<div id="blog-detail">
+    <div class="container">
+
+        <img [src]="CurrentBlog.b_coverPhoto" id="coverpic" alt="">
+        <h1>{{CurrentBlog.b_title}}</h1>
+        <h4 style="opacity: 0.8;">{{CurrentBlog.b_desc}}</h4>
+
+        <table>
+            <th>
+                <img src='{{CurrentBlog.postedBy.profilePic}}' alt="" class="profile-pic">
+            </th>
+            <th>
+                <h4>{{CurrentBlog.postedBy.userName}}</h4>
+            </th>
+
+        </table>
+     
+
+
+        <div class="section" *ngFor="let section of  CurrentBlog.b_body"  >
+            <h4>{{section.heading}}</h4>
+            <p *ngFor="let para of section.para" >{{para.text}}</p>
+            
+            <div *ngIf="section.image">
+                <img src='{{section.image}}' alt="" >
+
+            </div>
+        </div>
+        <h4 style="float:right"><mat-icon  style="cursor:pointer;margin-left: 30px;" [style.color]="dislikeColor" (click)=" dislikeBlog()" >thumb_down</mat-icon></h4>
+        <h4 style="float:right"><mat-icon matBadge="{{Likes}}"  matBadgeColor="accent" [style.color]="likeColor" matBadgeOverlap="false" style="cursor:pointer" (click)="likeBlog()" >thumb_up</mat-icon></h4>
+     
+      
+        <mat-expansion-panel (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false">
+<mat-expansion-panel-header>
+<mat-panel-title>
+   
+<h4><mat-icon style="   position: absolute;
+    margin: 0px -40px;">comment</mat-icon>Read Comments</h4>
+</mat-panel-title>
+
+</mat-expansion-panel-header>
+
+<div class="comment-box">
+    <mat-form-field class="full-width">
+        <mat-label style="color: white;">Leave a comment</mat-label>
+        <textarea matInput style="color: white;" placeholder="Ex. It makes me feel..." [(ngModel)]="comment" ></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="accent" style="margin: 20px;" (click)="addComment()">Post</button>
+
+    </div>
+<mat-card class="comment-card" *ngFor="let comment of CurrentBlog.b_comments">
+    <div class="row">
+        <div class="col-sm-2">
+            <img src="{{comment.postedBy.profilePic}}" class="profile-picture" alt="">
+        </div>
+        <div class="col-sm-8">
+            <p>" {{comment.b_text}} "</p>
+
+        </div>
+        <div class="col-sm-2">
+            <button  (click)="deleteComment(comment.b_text)" class="btn btn-"*ngIf="comment.postedBy.userName===CurrentUser.userName" class="btn btn-"mat-fab color="primary" aria-label="Example icon button with a delete icon">
+                <mat-icon  >delete</mat-icon>
+              </button>
+        </div>
+
+
+    </div>
+</mat-card>
+
+</mat-expansion-panel>
+
+
+    
+    </div>
+
+
+
+
+</div>

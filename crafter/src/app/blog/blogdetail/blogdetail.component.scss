@@ -1,0 +1,146 @@
+@import "../../app.component.scss";
+
+
+#blog-detail{
+width:100%;
+min-height: 100vh;
+background-color: $darkyellow;
+color: white;
+border: 1px solid rgba(204, 204, 204, 0);
+overflow-x:hidden !important;
+
+
+}
+
+
+
+#coverpic{
+    width:100%;
+    height: 80vh;
+    background-size: cover;
+    margin-bottom: 50px;
+    background-position: top center;
+}
+h1{
+    font-size: 42px;
+line-height:50px;
+font-family: JosefinSansBold;
+}
+
+.section{
+    h4{
+        font-size: 30px;
+        line-height:28px;
+        color: white;
+        margin: 10px auto;
+    }
+    img{
+        width:100%;
+        max-height: auto;
+        
+margin: 30px auto;
+    }
+    p{ 
+        margin:20px auto;
+    }
+    
+    
+}
+
+.profile-pic{
+    width:75px;
+    border: 3px solid $primary;
+    border-radius: 50%;
+    height: 75px;
+}
+
+th{
+    padding:20px;
+}
+p{
+    font-size: 20px;
+    line-height:28px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    opacity: 0.9;
+    font-family: RobotoLight;
+}
+
+.comment-box{
+    width:50%;
+
+height: auto;
+margin: 20px auto;
+
+.add-comment{
+    width:100% !important;
+    textarea{
+        width:100% !important;
+        background-color: black;
+        border: 1px solid $primary;
+        border-radius: 10px;
+        color: white;font-size: 16px !important;
+        padding:16px !important;
+    }
+}
+.comment-profile{
+    width:60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 60px;
+}
+.profile{
+    display:flex;
+    padding:20px;
+    flex-direction: row;
+}
+
+}
+
+mat-expansion-panel,mat-expansion-panel-header{
+    background-color: $darkyellow !important;
+    color: white;
+  h4{
+      padding:40px;
+      color: white !important;
+  }
+    
+    .full-width{
+        width:70%;
+        
+    }
+    .comment-card{
+        width: 60%;
+        background-color: lighten($color: $darkyellow, $amount: 5);
+        color: whitesmoke;
+        margin: 20px auto;
+        .profile-picture{
+            width:60px;
+            border-radius: 50%;
+            height: 60px;
+        }
+        p{
+            font-size: 16px;
+
+            font-family: RobotoMedium;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .comment-box,    .comment-card{
+        width:90% !important;
+        
+    }
+    #coverpic{
+
+        height: 400px !important;
+        object-fit:cover;
+
+    }
+    #blog-detail{
+        padding:10px;
+
+    }
+}

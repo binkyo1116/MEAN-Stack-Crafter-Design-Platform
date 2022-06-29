@@ -1,374 +1,115 @@
-Contribution: 2021-03-05 20:00
 
-Contribution: 2021-03-05 20:01
+# Major-Project-
 
-Contribution: 2021-03-05 20:02
 
-Contribution: 2021-03-05 20:03
+Hello Guys !! This Webapp is a unique platform developed for a young and creative generation of Designers . Design is atmost one of the most serious concern when building a small scale website or large scale website . UI/UX design skills are one of the most in demand skill at this stage of tech revolution . All tech gigs do wanna learn this skills .Yah i know their are plenty of books resources youtube channels courses and websites available in the market ? then y should you even consider our application ? lets see !
 
-Contribution: 2021-03-14 20:00
+This project focuses 🎯 on 4 major parts
 
-Contribution: 2021-03-14 20:01
+📚 Learn - Its important to  learn a thing throughly and grasp the basics of the things . we will ensure that you will get a good overview of ui ux designing in general .
 
-Contribution: 2021-03-14 20:02
+🏗️ Apply - We Make Sure You Apply the things you learn so we will be providing you with some mini projects to boost you confidence(as in web projects for now)..
 
-Contribution: 2021-03-14 20:03
+🤝 Share - Its important to share your skillset and knowledge to people around you . Your Contrubution to design community is important as it will enhance your confidence and will help out people as much as possible
+ 
+🔥 Feedback - Its important to share your feedback to things you know so we provide a decent mechanism to gain feedback on your work
 
-Contribution: 2021-03-14 20:04
 
-Contribution: 2021-03-14 20:05
+⭐  Features 
 
-Contribution: 2021-03-14 20:06
+1 Create account 
 
-Contribution: 2021-03-14 20:07
+2 Personlized Tracking of Portfolio 
 
-Contribution: 2021-03-22 20:00
+3 Create/Edit/Delete/Update - UI Post
 
-Contribution: 2021-03-22 20:01
+4 Feedback on Post
 
-Contribution: 2021-03-22 20:02
+5 Create Blog 
 
-Contribution: 2021-03-22 20:03
+6 Feedback on BLog
 
-Contribution: 2021-03-29 20:00
+7 Download Project Starter File
 
-Contribution: 2021-03-29 20:01
+8 Guide of UI UX design
 
-Contribution: 2021-03-29 20:02
+  a Stats on UI UX Design 
+  
+  b Tools Used for UI UX design
+  
+  c Resources Guide for ui ux design
+  
+  
+   ✒️ UI of Crafter Website !
+  
+  ⚙️ Tech Stack - MEAN STACK
+  
+  
+  
+  ⭐  Landing Page
+  
+![Screenshot_2021-02-26 Crafter](https://user-images.githubusercontent.com/53342781/109319220-a1bd2880-7874-11eb-9f61-14c88efaab77.png)
 
-Contribution: 2021-03-29 20:03
+⭐ Signup 
 
-Contribution: 2021-03-29 20:04
+![Screenshot_2021-02-26 Crafter(1)](https://user-images.githubusercontent.com/53342781/109319796-48a1c480-7875-11eb-84fc-3f9b4d83f886.png)
 
-Contribution: 2021-03-29 20:05
+⭐ Sign in
+![Screenshot_2021-02-26 Crafter(3)](https://user-images.githubusercontent.com/53342781/109320026-8ef72380-7875-11eb-9902-01a3f87dc680.png)
 
-Contribution: 2021-03-29 20:06
+⭐ Homepage
+![Screenshot_2021-04-11 Crafter(5)](https://user-images.githubusercontent.com/53342781/114298864-02778c00-9ad6-11eb-9a0b-71bcd93d002a.png)
 
-Contribution: 2021-04-02 20:00
 
-Contribution: 2021-04-02 20:01
 
-Contribution: 2021-04-02 20:02
+⭐ Portfolio 
 
-Contribution: 2021-04-02 20:03
+![Screenshot_2021-04-11 Crafter(3)](https://user-images.githubusercontent.com/53342781/114298728-5fbf0d80-9ad5-11eb-9ff0-007ccec8353d.png)
+![Screenshot_2021-04-11 Crafter(2)](https://user-images.githubusercontent.com/53342781/114298729-60f03a80-9ad5-11eb-9fad-729af1cbca57.png)
 
-Contribution: 2021-04-09 20:00
+⭐ Explore Design Section
 
-Contribution: 2021-04-09 20:01
+![Screenshot_2021-02-26 Crafter(9)](https://user-images.githubusercontent.com/53342781/109321647-6cfea080-7877-11eb-9f99-9cdb94629d08.png)
 
-Contribution: 2021-04-09 20:02
+⭐ Explore Design Section With Color Search 
 
-Contribution: 2021-04-09 20:03
+![Screenshot_2021-02-26 Crafter(14)](https://user-images.githubusercontent.com/53342781/109324028-26f70c00-787a-11eb-8958-31bf2bd4e333.png)
 
-Contribution: 2021-04-09 20:04
 
-Contribution: 2021-04-09 20:05
+⭐ Explore Design Detail Page with feedback
 
-Contribution: 2021-04-09 20:06
+![Screenshot_2021-02-26 Crafter(15)](https://user-images.githubusercontent.com/53342781/109324093-3b3b0900-787a-11eb-8693-9abbd39e4180.png)
 
-Contribution: 2021-04-09 20:07
 
-Contribution: 2021-04-10 20:00
+⭐ Blog Homepage
 
-Contribution: 2021-04-10 20:01
+![Screenshot_2021-02-26 Crafter(12)](https://user-images.githubusercontent.com/53342781/109323302-55281c00-7879-11eb-8fec-0f341c7af575.png)
 
-Contribution: 2021-04-10 20:02
+⭐ Blog Detail
 
-Contribution: 2021-04-10 20:03
+![Screenshot_2021-02-26 Crafter(13)](https://user-images.githubusercontent.com/53342781/109323598-a59f7980-7879-11eb-814a-ce3b54edf69d.png)
 
-Contribution: 2021-04-10 20:04
+⭐ Project Section
 
-Contribution: 2021-04-10 20:05
+![Screenshot_2021-02-26 Crafter(16)](https://user-images.githubusercontent.com/53342781/109324378-9a991900-787a-11eb-9274-da6418a25149.png)
 
-Contribution: 2021-04-10 20:06
 
-Contribution: 2021-04-10 20:07
+![Screenshot_2021-02-26 Crafter(17)](https://user-images.githubusercontent.com/53342781/109324312-7c331d80-787a-11eb-8370-6fd7277c1b1f.png)
 
-Contribution: 2021-04-10 20:08
 
-Contribution: 2021-04-11 20:00
+⭐ Guide Section
 
-Contribution: 2021-04-11 20:01
 
-Contribution: 2021-04-11 20:02
+![Screenshot_2021-04-11 Crafter(1)](https://user-images.githubusercontent.com/53342781/114298733-63eb2b00-9ad5-11eb-9ebc-db4776393a17.png)
 
-Contribution: 2021-04-11 20:03
 
-Contribution: 2021-04-12 20:00
 
-Contribution: 2021-04-12 20:01
+Thanks a lot !!
 
-Contribution: 2021-04-12 20:02
 
-Contribution: 2021-04-12 20:03
 
-Contribution: 2021-04-12 20:04
 
-Contribution: 2021-04-12 20:05
 
-Contribution: 2021-04-14 20:00
-
-Contribution: 2021-04-14 20:01
-
-Contribution: 2021-04-14 20:02
-
-Contribution: 2021-04-14 20:03
-
-Contribution: 2021-04-14 20:04
-
-Contribution: 2021-04-26 20:00
-
-Contribution: 2021-04-26 20:01
-
-Contribution: 2021-04-26 20:02
-
-Contribution: 2021-04-26 20:03
-
-Contribution: 2021-04-26 20:04
-
-Contribution: 2021-04-26 20:05
-
-Contribution: 2021-04-26 20:06
-
-Contribution: 2021-04-26 20:07
-
-Contribution: 2021-04-26 20:08
-
-Contribution: 2021-04-30 20:00
-
-Contribution: 2021-04-30 20:01
-
-Contribution: 2021-04-30 20:02
-
-Contribution: 2021-05-03 20:00
-
-Contribution: 2021-05-03 20:01
-
-Contribution: 2021-05-03 20:02
-
-Contribution: 2021-05-03 20:03
-
-Contribution: 2021-05-03 20:04
-
-Contribution: 2021-05-03 20:05
-
-Contribution: 2021-05-03 20:06
-
-Contribution: 2021-05-09 20:00
-
-Contribution: 2021-05-09 20:01
-
-Contribution: 2021-05-09 20:02
-
-Contribution: 2021-05-09 20:03
-
-Contribution: 2021-05-09 20:04
-
-Contribution: 2021-05-09 20:05
-
-Contribution: 2021-05-11 20:00
-
-Contribution: 2021-05-11 20:01
-
-Contribution: 2021-05-11 20:02
-
-Contribution: 2021-05-11 20:03
-
-Contribution: 2021-05-11 20:04
-
-Contribution: 2021-05-15 20:00
-
-Contribution: 2021-05-17 20:00
-
-Contribution: 2021-05-19 20:00
-
-Contribution: 2021-05-19 20:01
-
-Contribution: 2021-05-19 20:02
-
-Contribution: 2021-05-19 20:03
-
-Contribution: 2021-05-19 20:04
-
-Contribution: 2021-05-19 20:05
-
-Contribution: 2021-05-19 20:06
-
-Contribution: 2021-05-22 20:00
-
-Contribution: 2021-05-22 20:01
-
-Contribution: 2021-05-22 20:02
-
-Contribution: 2021-05-22 20:03
-
-Contribution: 2021-05-24 20:00
-
-Contribution: 2021-05-24 20:01
-
-Contribution: 2021-05-24 20:02
-
-Contribution: 2021-05-24 20:03
-
-Contribution: 2021-05-24 20:04
-
-Contribution: 2021-05-24 20:05
-
-Contribution: 2021-05-24 20:06
-
-Contribution: 2021-05-24 20:07
-
-Contribution: 2021-06-01 20:00
-
-Contribution: 2021-06-01 20:01
-
-Contribution: 2021-06-01 20:02
-
-Contribution: 2021-06-02 20:00
-
-Contribution: 2021-06-02 20:01
-
-Contribution: 2021-06-02 20:02
-
-Contribution: 2021-06-02 20:03
-
-Contribution: 2021-06-02 20:04
-
-Contribution: 2021-06-02 20:05
-
-Contribution: 2021-06-02 20:06
-
-Contribution: 2021-06-06 20:00
-
-Contribution: 2021-06-06 20:01
-
-Contribution: 2021-06-06 20:02
-
-Contribution: 2021-06-06 20:03
-
-Contribution: 2021-06-06 20:04
-
-Contribution: 2021-06-06 20:05
-
-Contribution: 2021-06-09 20:00
-
-Contribution: 2021-06-15 20:00
-
-Contribution: 2021-06-15 20:01
-
-Contribution: 2021-06-15 20:02
-
-Contribution: 2021-06-15 20:03
-
-Contribution: 2021-06-15 20:04
-
-Contribution: 2021-06-15 20:05
-
-Contribution: 2021-06-16 20:00
-
-Contribution: 2021-06-16 20:01
-
-Contribution: 2021-06-16 20:02
-
-Contribution: 2021-06-16 20:03
-
-Contribution: 2021-06-16 20:04
-
-Contribution: 2021-06-16 20:05
-
-Contribution: 2021-06-16 20:06
-
-Contribution: 2021-06-20 20:00
-
-Contribution: 2021-06-20 20:01
-
-Contribution: 2021-06-21 20:00
-
-Contribution: 2021-06-21 20:01
-
-Contribution: 2021-06-21 20:02
-
-Contribution: 2021-06-21 20:03
-
-Contribution: 2021-06-21 20:04
-
-Contribution: 2021-06-21 20:05
-
-Contribution: 2021-06-23 20:00
-
-Contribution: 2021-06-23 20:01
-
-Contribution: 2021-06-23 20:02
-
-Contribution: 2021-07-03 20:00
-
-Contribution: 2021-07-03 20:01
-
-Contribution: 2021-07-03 20:02
-
-Contribution: 2021-07-03 20:03
-
-Contribution: 2021-07-03 20:04
-
-Contribution: 2021-07-03 20:05
-
-Contribution: 2021-07-04 20:00
-
-Contribution: 2021-07-04 20:01
-
-Contribution: 2021-07-04 20:02
-
-Contribution: 2021-07-04 20:03
-
-Contribution: 2021-07-04 20:04
-
-Contribution: 2021-07-04 20:05
-
-Contribution: 2021-07-04 20:06
-
-Contribution: 2021-07-04 20:07
-
-Contribution: 2021-07-07 20:00
-
-Contribution: 2021-07-07 20:01
-
-Contribution: 2021-07-07 20:02
-
-Contribution: 2021-07-08 20:00
-
-Contribution: 2021-07-08 20:01
-
-Contribution: 2021-07-08 20:02
-
-Contribution: 2021-07-08 20:03
-
-Contribution: 2021-07-08 20:04
-
-Contribution: 2021-07-08 20:05
-
-Contribution: 2021-07-08 20:06
-
-Contribution: 2021-07-08 20:07
-
-Contribution: 2021-07-10 20:00
-
-Contribution: 2021-07-14 20:00
-
-Contribution: 2021-07-14 20:01
-
-Contribution: 2021-07-14 20:02
-
-Contribution: 2021-07-14 20:03
-
-Contribution: 2021-07-14 20:04
-
-Contribution: 2021-07-14 20:05
-
-Contribution: 2021-07-14 20:06
-
-Contribution: 2021-07-14 20:07
-
-Contribution: 2021-07-20 20:00
-
-Contribution: 2021-07-20 20:01
-
+                                                   
+ 
+  

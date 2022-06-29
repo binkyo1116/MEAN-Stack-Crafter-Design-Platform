@@ -1,0 +1,53 @@
+$darkblue:#06080E;
+$yellowhite:#FFF6C2;
+$darkyellow:#030303;
+$primary:#5A47F8;
+$light-grey:#474A58;
+$pure-black:#000000;
+$text-color:#EFEEF7;
+$pure-white:#FFFFFF;
+
+
+*{
+  box-sizing: border-box;
+
+}
+
+@font-face {
+  font-family: Simonetta;
+  src: url("./fonts/Simonetta-Black.ttf");
+}
+@font-face {
+  font-family: JosefinSansBold;
+  src: url("./fonts/JosefinSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: HighTowerText;
+    src: url("./fonts/HTOWERT.TTF");
+  }
+  @font-face {
+    font-family: FranklinGothic;
+    src: url("./fonts/FranklinGothic.woff");
+  }
+  
+  @font-face {
+    font-family:RobotoMedium;
+    src: url("./fonts/Roboto-Medium.ttf");
+  }
+
+  @font-face {
+    font-family:RobotoLight;
+    src: url("./fonts/Roboto-Light.ttf");
+  }
+
+  @font-face {
+    font-family:Robotobold;
+    src: url("./fonts/Roboto-Bold.ttf");
+  }
+
+
+  a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,83 @@
+
+@import "../app.component.scss";
+
+$input:rgba(44, 43, 43, 0.678);
+#profile-form{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: $darkyellow;
+    mat-vertical-stepper,mat-step
+    {
+        text-align: center;
+        width:70%;
+        display: flex;
+     justify-content:center;
+     flex-direction: column;
+        background-color: $darkyellow !important;
+        color: white;
+    }
+  .form{
+     width:70%;
+     flex-direction: column;
+     align-items: center;
+  height: 70vh;
+     display: flex;
+     justify-content:center;
+h2{
+    color: #fff;
+    font-family:HighTowerText;
+    font-size: 36px;
+}
+  }
+}
+
+.avatar{
+  width:75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit:cover;
+}
+
+.col{
+  padding:20px;
+}
+
+
+/* If you put this css in your component then you would be able to use angular material inputs through out that component and if you put this in your style.css or style.scss then you would be able to use it through out your application */
+mat-form-field input {
+    border: none;
+    height: initial !important;
+    width:100%;
+    color: white;
+  }
+  strong{
+    color: rgba(255, 255, 255, 0.452) !important;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ccc;
+    opacity: 0.5; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ccc;
+  }
+  mat-label{
+    color: white;
+  }
+  mat-form-field input:focus {
+    border: none;
+    box-shadow: none;
+    height: initial !important;
+  }
+
+@media only screen and (max-width: 900px) {
+ 
+}

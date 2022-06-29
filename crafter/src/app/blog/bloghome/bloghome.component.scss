@@ -1,0 +1,179 @@
+@import "../../app.component.scss";
+
+
+#blog-home{
+width:100%;
+min-height: 100vh;
+background-color: $darkyellow;
+color: white;
+border: 1px solid rgba(204, 204, 204, 0);
+}
+
+
+.heading{
+    font-family: JosefinSansBold;
+    font-size: 64px;
+    line-height:65px;
+    margin:50px auto;
+    text-align: center;
+    margin-bottom: 20px !important; 
+    
+
+}
+.subheading{
+    font-size: 30px;
+    margin: 50px auto;
+    width:85%;
+    padding:20px;
+    font-family: RobotoMedium;
+    mat-icon{
+        font-size: 30px;
+margin-right: 20px;
+color: $primary !important;
+    }
+}
+
+#poster{
+    width:100%;
+    min-height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+cursor: pointer;
+    .poster-card{
+        width:500px;
+     border: 10px solid whitesmoke;
+     box-sizing: content-box;
+        height: 500px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content{
+            padding:10px;
+
+            h1{
+                cursor: pointer;
+
+                font-family: JosefinSansBold;
+                font-size: 42px;
+                line-height: 50px;
+                padding:40px !important;
+                text-align: left;
+                text-transform: uppercase;
+            }
+            span{
+                float: right;
+                margin-right: 120px;
+                font-size: 24px !important;
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .poster-card::after{
+        position: absolute;
+
+        content: '"';
+        width:100px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ margin-left: -400px;
+ margin-top: -400px;
+        height:100px; 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    border-radius: 0px 0px 100px 0px;
+        background-color: rgba(255, 255, 255, 0.5); 
+        box-shadow: 4px 4px 15px rgba(68, 33, 0, 0.192);
+        
+    }
+
+    .poster-card::before{
+        position: absolute;
+
+        box-shadow: -4px 4px 15px rgba(68, 33, 0, 0.4);
+
+        content: '"';
+        width:100px;
+        display:flex;
+        margin-left: 400px;
+        justify-content:center;
+        align-items:flex-end;
+        font-size: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ margin-top: 400px;
+        height:100px; 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    border-radius: 100px 0px 0px 0px;
+        background-color: rgba(255, 255, 255, 0.5); 
+    }
+}
+
+// blog card container
+
+.card-container{
+    width:100%;
+   height: auto;
+   padding:20px;
+   border: 1px solid inherit;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   
+   .blog-card{
+    height: 450px;
+    padding:0px !important;
+margin: 10px 20px;
+border: 1px solid inherit;
+transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+&:hover{
+    transition:3s cubic-bezier(.645,.045,.355);
+    transform:scale(1.2,1.2);
+}
+img{
+    width:100%;
+    height: 300px;
+    object-fit:cover;
+
+    object-position:top center;
+}
+
+.content{
+    width:100%;
+    height: 150px;
+    h1{
+        font-size: 18px !important;
+        padding:10px;
+    }
+
+}
+
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+    #poster .poster-card{
+        width:90% !important;
+    }
+    
+    #poster .poster-card::after{
+        margin-left: -280px;
+        margin-top: -400px;
+    }
+        
+    #poster .poster-card::before{
+        margin-left: 280px;
+        margin-top: 400px;
+    }
+
+}

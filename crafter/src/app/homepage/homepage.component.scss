@@ -1,0 +1,169 @@
+
+@import "../app.component.scss";
+
+#home-page{
+    width:100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color: #000000!important;
+background-color: white;
+}
+
+.navbar{
+    width:100%;
+    background-attachment: fixed;
+    position: -webkit-sticky; /* Required for Safari */
+    position: sticky;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    min-height: 10vh;
+    height:auto;
+        padding:20px 20px;
+    h1{
+
+        font-family: HighTowerText;
+         font-size: 42px !important;
+           
+    }
+     .right{
+         a{
+             font-family: RobotoMedium;
+             
+             font-size: 20px;
+             margin: 10px;
+             cursor: pointer;
+         
+          &:hover{
+              color: #cccccc;
+          }
+            }
+         
+     }
+}
+#landing-section{
+    width: 100%;
+   min-height:90vh;
+   margin: 0 auto;
+   border: 1px solid inherit;
+   background-attachment: fixed !important; 
+   &>div{
+min-height: 90vh;
+padding-left: 70px;
+border: 1px solid inherit;
+   }
+#text-card{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    h4{
+        
+        font-family:RobotoMedium;
+        text-align: left;
+        line-height: 60px;
+        font-weight: 100;
+         font-size: 52px !important;
+    }
+    button{
+        background-color:#000;
+        color: white;
+    }
+    .img{
+        background-image: url('../images/card-image.jpg');
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 200px;
+        object-fit: contain;
+        transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover{
+
+        animation: rotate-me-in 2s; 
+        animation-timing-function: ease-in-out;
+    }
+    }
+}
+
+   #image-1{
+       background-image: url('../images/s0f04wah.png');
+       background-size: cover;
+       background-position: center center;
+transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+&:hover{
+    transform:scale(1.2,1.2);
+}
+}
+
+
+   
+   #image-2{
+    background-image: url('../images/Collage\ series\ 06.png');
+    background-size: cover;
+    background-position: center center;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover{
+        transform:scale(1.2,1.2);
+    }
+   }
+
+   
+}
+
+#featured-section{
+    width: 100%;
+background-color: #000;
+    min-height: 100vh;
+
+}
+
+@keyframes rotate-me-in {
+    /* You could think of as "step 1" */
+    0% {
+        transform: rotateZ(90deg);
+    }
+
+     50%{
+        transform: rotateZ(180deg);
+        
+     }
+     75%{
+        transform: scale(1.2,1.2);
+     }
+    /* You could think of as "step 2" */
+    100% {
+        transform: rotateZ(0deg);
+    }
+  }
+@media only screen and (max-width: 900px) {
+
+    .navbar{
+        display: block;
+ text-align: center;
+        .right{
+            margin-top: 50px;
+
+            a{
+margin-left: 30px;
+                text-align: left;
+font-size: 14px;
+            }
+        }
+    }
+
+    #image-1{
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        
+    }
+}
+

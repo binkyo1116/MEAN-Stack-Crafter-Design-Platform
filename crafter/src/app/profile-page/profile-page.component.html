@@ -1,0 +1,45 @@
+<div id="profile-page">
+
+    <div class="profile-container">
+        <div class="voilet-bg">
+
+        </div>
+        <img src="{{UserInfo.profilePic}}" class="profile-pic" alt="">
+
+        <div class="row">
+            <div class="col-sm-12 col-lg-4">
+                <button mat-raised-button color="primary" id="profile-update" (click)="openForm()" >Update Profile</button>
+
+                <h1>{{UserInfo.userName}}</h1>
+
+                <h4>{{UserInfo.firstName}} {{UserInfo.lastName}}</h4>
+                <h4><mat-icon aria-hidden="false" aria-label="Example home icon">work</mat-icon><span>{{UserInfo.whoAreYou}}</span></h4>
+ 
+            </div>
+            <div class="col-sm-12 col-lg-8">
+                <mat-tab-group>
+                    <mat-tab>
+                      <ng-template mat-tab-label>
+                        <mat-icon class="example-tab-icon">terrain</mat-icon>
+                      <span class="label">UI</span>
+                      </ng-template>
+                   Ui Posts Here
+                    </mat-tab>
+                  
+                    <mat-tab>
+                      <ng-template mat-tab-label>
+                        <mat-icon class="example-tab-icon">ballot</mat-icon>
+                       <span class="label">Blog</span>
+                      </ng-template>
+                      Blog Posts Here
+
+                    </mat-tab>
+                  
+                
+                  </mat-tab-group>
+                  
+            </div>
+
+        </div>
+    </div>
+</div>

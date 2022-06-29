@@ -1,0 +1,72 @@
+@import "../../app.component.scss";
+
+
+#blog-form{
+background-color: $darkyellow;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    height: auto;
+    h1{
+        text-align: center;
+        font-family:  JosefinSansBold;
+line-height: 42px;
+padding: 50px 0px;
+color:white;
+        font-size: 42px;
+    }
+    text-align: center;
+   label{
+       text-align: left;
+       margin-top: 30px;
+
+       display:block;
+        color: white;
+        font-size: 18px;
+    }
+    form{
+        width: 70%;
+        margin: 20px auto;
+    }
+    input,textarea{
+     background-color: transparent;
+     border: none;
+     border-bottom: 2px solid $primary !important;
+        width: 100%;
+        margin-bottom: 40px ;
+        color: white;
+        opacity: 0.8;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+
+
+    input[type="file"] {
+        position: absolute;
+        z-index: -1;
+        top: 6px;
+        left: 0px;
+        font-size: 15px;
+        color: #fff;
+      }
+      
+      .button-wrap {
+        position: relative;
+      }
+      
+      .new-button {
+          display: inline-block;
+          padding: 8px 12px; 
+          cursor: pointer;
+          border-radius: 4px;
+          background-color: $primary;
+          font-size: 16px;
+          color: #fff;
+      }
+
+      .para-section{
+     padding:30px;
+        border: 1px solid #ccc;
+      }
+}

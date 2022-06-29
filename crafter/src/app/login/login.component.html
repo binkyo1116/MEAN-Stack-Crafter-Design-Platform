@@ -1,0 +1,36 @@
+<section id="signup">
+    <div class="row">
+        <div class="col-lg-6 col-sm-6" id="signup-form">
+    
+        
+     <h1 class="center">Welcome Back !!</h1>
+     <p class="center">Dont have an account ? <a routerLink="/signup">Sign Up</a></p>
+          <form novalidate (ngSubmit)="Login()" >
+            <div class="container">
+              <div class="row" style="width:70%; margin:0 auto;">
+               
+                <div class="col-lg-12">
+                  <input type="text" class="input"  name="userName"  [(ngModel)]="User.userName"  placeholder="Username">
+                </div>
+                <div class="col-lg-12">
+                  <input type="text" class="input" name="email" [(ngModel)]="User.email" placeholder="Email"> 
+                </div>
+                <div class="col-lg-12">
+                  <input type="text" class="input" name="password" [(ngModel)]="User.password"  placeholder="Password">
+                </div>
+             
+                <div class="col-lg-12">
+               <button>Sign In</button>
+                </div>
+              </div>
+    
+            </div>
+          </form>
+    
+        </div>
+        <div class="col-sm-12 col-lg-6" id="image">
+    
+        </div>
+    
+    </div>
+    </section>

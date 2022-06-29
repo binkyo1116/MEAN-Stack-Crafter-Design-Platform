@@ -1,0 +1,71 @@
+@import "../app.component.scss";
+
+#profile-page{
+    width:100%;
+    min-height: 100vh;
+    background-color: $darkyellow;
+    color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-sizing: border-box;
+
+    #profile-update{
+margin:15px ;
+    }
+    .profile-container{
+        width:50%;
+        min-height: 70vh;
+    }
+.row>div{
+    // border: 1px solid red;
+    border: 1px solid transparent;
+    color: white;
+}
+    .voilet-bg{
+        width:100%;
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        height: 250px;
+        background-color:$primary;
+    }
+    .profile-pic{
+        width:180px;
+        height:180px;
+        border:5px solid $primary;
+        margin-top:-100px;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 1;
+        border-radius: 50%;
+        object-fit:cover;
+    }
+
+    h1{
+        margin:0px 20px;
+        font-family: RobotoMedium;
+        font-size: 24px;
+        
+    }
+ 
+    h4{
+        font-size: 16px;
+        margin:10px 20px;
+        span{
+            margin-left: 40px;
+        }
+        mat-icon{
+            position:absolute;
+            color: white;
+            margin:0px -05px;
+        }
+    }
+  .label{
+        color:white;
+    }
+
+    mat-icon{
+        color:$primary;
+        margin:0px 10px;
+    }
+ 
+}

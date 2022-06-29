@@ -1,0 +1,84 @@
+@font-face {
+  font-family: HighTowerText;
+  src: url("./fonts/HTOWERT.TTF");
+}
+
+@font-face {
+  font-family: FranklinGothic;
+  src: url("./fonts/FranklinGothic.woff");
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: RobotoLight;
+  src: url("./fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Robotobold;
+  src: url("./fonts/Roboto-Bold.ttf");
+}
+
+#signup {
+  width: 100%;
+  height: auto;
+  background-color: #060403;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.input {
+  color: #fff;
+  display: block;
+  margin: 15px auto !important;
+  background-color: rgba(44, 43, 43, 0.678) !important;
+  border: none !important;
+  text-align: left;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  padding: 0px 20px !important;
+  border-radius: 10px !important;
+  font-family: RobotoMedium;
+}
+
+button {
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px !important;
+  font-family: RobotoMedium;
+  padding: 10px 30px;
+  background-color: #5A47F8;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+#signup-form {
+  min-height: 100vh;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#image {
+  min-height: 100vh;
+  height: auto;
+  background-image: url("../images/designer.jpg");
+  background-size: cover;
+  background-position: center center;
+}

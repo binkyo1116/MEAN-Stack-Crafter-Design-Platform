@@ -1,0 +1,61 @@
+
+@import "../app.component.scss";
+
+$input:rgba(44, 43, 43, 0.678);
+#signup{
+    width:100%;
+    height:auto;
+    background-color: $darkyellow;
+    min-height: 100vh;
+    color: #fff;
+    
+}
+::ng-deep .mat-select-value{    
+    color: white!important;  }
+
+
+.input{
+    width:100%;
+  
+    color: #fff;
+    display: block;
+ margin: 15px auto !important;
+    background-color: $input !important;
+    border: none !important;
+    text-align: left;
+    box-sizing: border-box !important;
+    padding:10px 20px!important;
+    border-radius: 10px !important;    font-family: RobotoMedium;
+}
+
+button{ 
+    border-radius: 10px;
+    width:100%;
+    margin-top: 20px !important;
+    font-family: RobotoMedium;
+    padding:10px 30px;
+    background-color: $primary;
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+#signup-form{
+  
+    min-height: 100vh;
+    height: auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+#image{
+  
+    min-height: 100vh;
+    height: auto;
+    background-image: url('../images/designer.jpg');
+    background-size: cover;
+    background-position: center center;
+}

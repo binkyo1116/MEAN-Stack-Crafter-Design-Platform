@@ -1,0 +1,168 @@
+// globals
+$darkblue:#06080E;
+$yellowhite:#FFF6C2;
+$darkyellow:#060403;
+$primary:#5A47F8;
+$light-grey:#474A58;
+$pure-black:#000000;
+$text-color:#EFEEF7;
+$pure-white:#FFFFFF;
+
+@font-face {
+    font-family: HighTowerText;
+    src: url("../fonts/HTOWERT.TTF");
+  }
+  @font-face {
+    font-family: FranklinGothic;
+    src: url("../fonts/FranklinGothic.woff");
+  }
+  
+  @font-face {
+    font-family:RobotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+  }
+
+  @font-face {
+    font-family:RobotoLight;
+    src: url("../fonts/Roboto-Light.ttf");
+  }
+
+  @font-face {
+    font-family:Robotobold;
+    src: url("../fonts/Roboto-Bold.ttf");
+  }
+
+
+
+#landingpage{
+width: 100%;
+min-height: 100vh;
+color: $text-color;
+background-color:$darkblue;
+}
+
+.landing-card{
+    width:100%;
+    height: 80vh;
+  display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+#navbar{
+    width:90%;
+    margin: 0 auto;
+    padding:25px 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    h1{
+        font-size: 42px;
+        font-family: HighTowerText;
+    }
+    a{ margin:10px 20px;
+    font-size: 18px;
+    color: #EFEEF7;
+    }
+}
+
+.cta{
+    background-color: #5A47F8;
+    color: $text-color;
+    font-size: 18px;
+    padding:5px 30px;
+}
+
+.content-card{
+    width:80%;
+    height: auto;
+    padding:20px;
+    margin:100px auto;
+
+    h1{ 
+        font-size: 64px;
+        line-height:42px;
+        margin: 20px auto;
+        font-family: HighTowerText;
+    }
+    p{ 
+        font-size: 24px;
+        line-height: 28px;
+        text-justify: distribute;
+        width:60%;
+        margin: 30px 0px;
+    }
+}
+
+.image-card{
+  width:70%;
+  // border: 1px solid #ccc;
+    height: auto;
+.card-1{
+  width:90%;
+  margin:0 auto;
+  height: 300px;
+  background-image: url('../images/laptop.png');
+  background-size: cover;
+  background-position: top center;
+}
+
+.card-2{
+  width:150px;
+  height: 270px;
+  background-image: url('../images/mobile-screen.png');
+  background-size: cover;
+  background-position: top center;
+position: relative;
+margin-top: -100px;
+margin-left: 20px;
+}
+.card-3{
+  width:320px;
+  height: 250px;margin-top: -120px;
+
+
+  background-image: url('../images/tablet.png');
+  background-size: cover;
+  background-position: top center;
+
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+ #landingpage{
+   height:auto !important;
+   .landing-card{
+     height: auto;
+   }
+ }
+
+ #navbar{
+   a{ display:block;margin: 20px auto;}
+ }
+ .content-card{
+   h1{
+     font-size: 36px;
+   }
+   p{
+     width:90%;
+     font-size: 16px;
+   }
+ }
+
+
+ .image-card{
+   width: 100%;
+   .card-2{
+     width:100px;
+     background-size: contain;
+     background-repeat: no-repeat;
+   }
+   .card-3,.card-1{
+    background-size: contain;
+    background-repeat: no-repeat;
+
+   }
+ }
+}
